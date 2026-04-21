@@ -7,4 +7,4 @@ print(turkeydf.dtypes)
 model = smf.ols("ADG ~ C(Diet)", data=turkeydf).fit()
 
 print(model.summary())
-#Very weak association between Diet type and ADG directly, need to check for mixed effects
+#Very weak association between Diet type and ADG directly, need to check for mixed effects.
